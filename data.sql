@@ -6,10 +6,10 @@ VALUES (1, 'Концерт'),
 INSERT INTO Activity (ActivityId, ParentId, ActivityTypeId, Name, AreaId)
 VALUES (1, NULL, 1, 'Linken park', 1),
        (2, 1, 2, 'Street art', 2),
-       (3, 1, 2, 'Лепка', 3),
-       (4, 2, 1, 'Neffex', 1),
-       (5, 2, 3, 'Ван Гог', 3),
-       (6, NULL, 3, 'Современное искуство', 2);
+       (3, 1, 2, 'Bebra', 3),
+       (4, 2, 1, 'Egor Krid', 1),
+       (5, 2, 3, 'ITIS Music', 3),
+       (6, NULL, 3, 'ArtLab', 2);
 
 INSERT INTO Program (ActivityId)
 VALUES (1),
